@@ -95,4 +95,9 @@ class Element
     {
         return element.TagName;
     }
+
+    public IWebElement GetWebElement()
+    {
+        return element;
+    }
 }
